@@ -72,11 +72,13 @@ The Vision Transformer model is trained to recognize four classes:
 
 [View detailed software setup in docs/SOFTWARE_SETUP.md](docs/SOFTWARE_SETUP.md)
 
-## 👥 Team
-- Student 1 - Hardware Design
-- Student 2 - C++ Integration
-- Student 3 - ML/AI Model
-- Student 4 - System Architecture
+## 👥 Team & Contributions
+
+- **[Heramb Vengurlekar](https://github.com/HerambVE)** — **Lead Software & Machine Learning Engineer**
+  - Designed and developed the **C++ Edge Controller** (`pigpio`, multi-threaded hardware orchestration, non-blocking asynchronous camera triggers, and HTTP client via `libcurl`).
+  - Engineered the **Vision Transformer (ViT) Deep Learning pipeline** in PyTorch (`vit_base_patch16_224`), including transfer learning, class weighting, and data augmentations.
+  - Built the **Cloud Inference Microservice** (Flask + ngrok) with dual-camera perspective aggregation and defect arbitration logic.
+- **Hardware Team** — Mechanical conveyor fabrication, chassis rigging, motor driver wiring, and physical servo gate assembly.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
