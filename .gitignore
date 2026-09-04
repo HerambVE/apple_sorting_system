@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# C++ Build artifacts
+*.o
+*.obj
+raspberry-pi/build/
+raspberry-pi/bin/applesortv2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pth
+*.pt
+
+# Temporary images
+/tmp/apple_*.jpg
+/tmp/*.jpg
+
+# API keys and environments
+.env
+.ngrok
